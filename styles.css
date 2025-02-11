@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Ubuntu, sans-serif, verdana;
+  background-color: white;
+  padding-top: 80px; /* Añadir margen superior para evitar superposición */
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  z-index: 1000;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Opcional: sombra para mejor visibilidad */
+}
+
+#header-img {
+  width: 50px;
+  height: 50px;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.header1 {
+  color: rgb(5, 5, 100);
+}
+
+.header2 {
+  color: rgb(19, 19, 203);
+}
+
+#nav-bar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#nav-bar li {
+  margin-right: 15px;
+}
+
+#nav-bar li:last-child {
+  margin-right: 0;
+}
+
+#nav-bar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (max-width: 768px) {
+  #header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  #nav-bar ul {
+    flex-direction: column;
+  }
+
+  #nav-bar li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+div fieldset {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 5px;
+  width: 80%;
+  font-style: italic;
+}
+
+form input {
+  padding: 10px;
+}
+
+input, textarea {
+  width: 100%;
+}
+
+.acerca h2, p {
+  margin-left: 3rem;
+}
+
+.section-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.video-container {
+    width: 100%; /* O un ancho específico si no quieres que ocupe todo el ancho */
+    display: flex; /* Agrega esto */
+    justify-content: center; /* Centra el iframe horizontalmente */
+}
+.video-container iframe { /* Apunta al iframe directamente */
+    /* Puedes mantener el ancho y la altura aquí o eliminarlos si quieres el tamaño intrínseco del video */
+    width: 560px; 
+    height: 315px;
+    max-width: 100%; /* Asegúrate de que no se desborde en pantallas más pequeñas */
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap; /* Permite que las tarjetas pasen a la siguiente línea */
+  justify-content: center; /* Centra las tarjetas horizontalmente */
+  gap: 20px; /* Espacio entre las tarjetas */
+  padding: 20px; /* Espacio interno del contenedor */
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 300px; /* Ancho fijo para las tarjetas */
+  min-height: 400px; /* Altura mínima para mantener consistencia */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Distribuye el contenido uniformemente */
+  text-align: center;
+}
+
+.card h3 {
+  margin: 0 0 10px 0;
+}
+
+.card p {
+  flex-grow: 1; /* Permite que el párrafo ocupe el espacio disponible */
+  margin: 0;
+}
+
+.card div {
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+footer {
+  display: flex;
+  background-color: #f0f0f0;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+footer ul li {
+  margin-right: 15px;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column; /* Cambia a disposición vertical en móviles */
+    align-items: center; /* Centra las tarjetas en móviles */
+  }
+
+  .card {
+    width: 90%; /* Ajusta el ancho para móviles */
+    min-height: auto; /* Altura automática en móviles */
+  }
+}
