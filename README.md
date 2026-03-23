@@ -2,7 +2,7 @@
 
 ## 📸 Vista previa
 
-![Vista previa de la landing page](URL_DE_LA_IMAGEN_AQUÍ)
+![Vista previa de la landing page](https://github.com/RamonTrrl/pagina-landing/blob/main/jfiNet_Img_p_landing.png)
 
 ## 📝 Descripción
 
@@ -29,11 +29,10 @@ Puedes ver la versión en vivo aquí:
 
 ## 📁 Estructura del proyecto
 
-*(Ajusta los nombres de archivo según los que tengas en el repositorio)*
-
-- `index.html` – Página principal de aterrizaje
-- `styles.css` – Estilos visuales
-- (opcional) `script.js` – Si incluyes interactividad extra
+- [`index.html`](https://github.com/RamonTrrl/pagina-landing/blob/main/index.html) – index de la página
+- [`styles.css`](https://github.com/RamonTrrl/pagina-landing/blob/main/styles.css) – Estilos visuales
+- [`ico_jifiNet`](https://github.com/RamonTrrl/pagina-landing/blob/main/icoWordpres-removebg-preview%20(2).png) – imagen del icono 
+- [`Imagen-revista`](https://github.com/RamonTrrl/pagina-landing/blob/main/jfiNet_Img_p_landing.png) - captura de la landing 
 
 ## 🚀 Cómo probarlo localmente
 
