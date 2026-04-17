@@ -6,7 +6,7 @@
 
 ## 📝 Descripción
 
-Este es otro proyecto de una serie requerida por *freeCodeCamp* como parte del proceso de mi certificación en: ***Responsive Web Design***. Se trata de una página de aterrizaje (landing page), en este caso, para nuestra revista digital **JifiNET**, un espacio donde la palabra escrita es la protagonista. El contenido reflexiona sobre el valor de los pequeños logros que muchas veces son los más importantes en nuestra vida, la pasión por escribir y la irrelevancia de esas letras como sello de identidad.
+Este es otro proyecto de una serie requerida por *freeCodeCamp* como parte del proceso de mi certificación en: ***Responsive Web Design***. Se trata de una página de aterrizaje (landing page), en este caso, para [nuestra revista digital **JifiNET**](https://jifinetcom.wordpress.com/) editada por los **"HNOS TV"**, un espacio donde la palabra escrita es la protagonista. El contenido reflexiona sobre el valor de los pequeños logros que muchas veces son los más importantes en nuestra vida, la pasión por escribir y la irrelevancia de esas letras como sello de identidad.
 
 En este proyecto combino, así como con todos los espacios digitales en los que se me brinda una tribuna, pues trato de de imprimir en ellos mi particular toque clásico:*****estlilo literario*****, y sumando los requisitos técnicos de freeCodeCamp, para que el proyecto se transforme en una invitción a la lectura pausada, en un entorno digital dominado por la ***prisa*** y en donde la lectura resulta ya es una cualidad casi extinta.
 
