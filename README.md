@@ -42,9 +42,6 @@ Puedes ver la versión en vivo aquí:
 
 ## 📌 Certificación
 
-Este proyecto forma parte del currículo de **Responsive Web Design** de freeCodeCamp.  
+Este proyecto forma parte del currículo de **Responsive Web Design** de freeCodeCamp, y está inspirado con el estilo y la voz de JifiNET!! 
 
 ---
-P.D:
-
-_Página de aterrizaje creada como parte del aprendizaje en freeCodeCamp, con el estilo y la voz de JifiNET
