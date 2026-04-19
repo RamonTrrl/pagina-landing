@@ -34,12 +34,6 @@ Puedes ver la versión en vivo aquí:
 - [`ico_jifiNet`](https://github.com/RamonTrrl/pagina-landing/blob/main/icoWordpres-removebg-preview%20(2).png) – imagen del icono 
 - [`Imagen-revista`](https://github.com/RamonTrrl/pagina-landing/blob/main/jfiNet_Img_p_landing.png) - captura de la landing 
 
-## 🚀 Cómo probarlo localmente
-
-1. Clona este repositorio:  
-   `git clone https://github.com/RamonTrrl/pagina-landing.git`
-2. Abre `index.html` en tu navegador.
-
 ## 📌 Certificación
 
 Este proyecto forma parte del currículo de **Responsive Web Design** de freeCodeCamp, y está inspirado con el estilo y la voz de JifiNET!! 
